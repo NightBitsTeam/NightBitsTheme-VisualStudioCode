@@ -1,0 +1,28 @@
+{
+	"name": "NightBitsTheme",
+	"displayName" : "NightBitsTheme",
+	"description": "Just one of the best out there!",
+	"version": "0.0.1",
+	"publisher": "Nightbits (Jeroen Saey)",
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Themes"
+	],
+	"homepage": "https://github.com/NightBitsTeam/NightBitsTheme-VisualStudioCode/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NightBitsTeam/NightBitsTheme-VisualStudioCode.git"
+	},
+	"icon":"icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "NightBitsTheme",
+				"uiTheme": "vs",
+				"path": "./NightBitsTheme.tmTheme"
+			}
+		]
+	}
+}
